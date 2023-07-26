@@ -14,7 +14,9 @@
     <!-- Height of the status bar header bar when on Keyguard (match status_bar_height) -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
-    <dimen name="keyguard_indication_margin_bottom">300px</dimen>
+    <!-- Bottom margin size when fingerprint in display is active -->
+    <dimen name="keyguard_indication_margin_bottom">11dp</dimen>
+
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">6.5dp</dimen>
 
