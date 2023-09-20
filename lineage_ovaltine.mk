@@ -8,26 +8,26 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from lemonade device
-$(call inherit-product, device/oneplus/lemonade/device.mk)
+# Inherit from ovaltine device
+$(call inherit-product, device/oneplus/ovaltine/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonade
-PRODUCT_DEVICE := lemonade
+PRODUCT_NAME := lineage_ovaltine
+PRODUCT_DEVICE := ovaltine
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := LE2115
+PRODUCT_MODEL := CPH2417
 
-PRODUCT_SYSTEM_NAME := OnePlus9
-PRODUCT_SYSTEM_DEVICE := OnePlus9
+PRODUCT_SYSTEM_NAME := CPH2417
+PRODUCT_SYSTEM_DEVICE := OP5552L1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlus9-user 13 TP1A.220905.001 R.11f3c87-1-5605 release-keys" \
+    PRIVATE_BUILD_DESC="qssi-user 13 TP1A.220905.001 1690541595415 release-keys" \
     TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-BUILD_FINGERPRINT := OnePlus/OnePlus9/OnePlus9:13/TP1A.220905.001/R.11f3c87-1-5605:user/release-keys
+BUILD_FINGERPRINT := OnePlus/CPH2417/OP5552L1:13/SKQ1.221119.001/S.123ec2a_6b801_6ff30:user/release-keys
