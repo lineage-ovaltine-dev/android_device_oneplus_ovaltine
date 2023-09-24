@@ -977,6 +977,7 @@ odm/lib64/libVDUpScale.so
 odm/lib64/libVideoEnhance.so
 odm/lib64/libWaterMark.so
 odm/lib64/libWaterMode.so
+odm/lib64/libXDocProcessSDK.so
 odm/lib64/lib_rectify.so
 odm/lib64/libaiboost.so
 odm/lib64/libaiboost_hexagon.so
@@ -1043,8 +1044,6 @@ odm/lib64/libcreatebin.so
 odm/lib64/libcustomer_halalgovisual.so
 odm/lib64/libcvface_api.so
 odm/lib64/libdeccfg_sp.so
-odm/lib64/libdlbdsservice_sp.so
-odm/lib64/libdlbpreg_sp.so
 odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
 odm/lib64/libeffect_custom.so
@@ -1077,7 +1076,6 @@ odm/lib64/libstblur_api.so
 odm/lib64/libstblur_capture_api.so
 odm/lib64/libstface_fd_api.so
 odm/lib64/libstfd_mobile_api.so
-odm/lib64/libswscale.so
 odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
