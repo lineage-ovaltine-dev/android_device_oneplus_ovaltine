@@ -1471,7 +1471,21 @@ vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v_unsigned.mbn
 
 # WiFi
+odm/etc/wifi/qca6490/bdwlan.b0a
+odm/etc/wifi/qca6490/bdwlan.b0c
+odm/etc/wifi/qca6490/bdwlan.b0e
+odm/etc/wifi/qca6490/bdwlan.elf
+odm/etc/wifi/qca6490/bdwlang.b0a
+odm/etc/wifi/qca6490/bdwlang.b0c
+odm/etc/wifi/qca6490/bdwlang.b0e
+odm/etc/wifi/qca6490/bdwlang.elf
+odm/etc/wifi/bdwlan.b0a
+odm/etc/wifi/bdwlan.b0c
+odm/etc/wifi/bdwlan.b0e
 odm/etc/wifi/bdwlan.elf
+odm/etc/wifi/bdwlang.b0a
+odm/etc/wifi/bdwlang.b0c
+odm/etc/wifi/bdwlang.b0e
 odm/etc/wifi/bdwlang.elf
 odm/etc/wifi/regdb.bin
 odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
