@@ -1404,6 +1404,14 @@ vendor/firmware/evautil64.b08
 vendor/firmware/evautil64.mdt
 vendor/firmware/gmu_gen70000.bin
 
+# Display calibration data
+odm/etc/boe1024_rm692e5_cinema_eyeprotect_data.xml
+odm/etc/boe1024_rm692e5_colorful_eyeprotect_data.xml
+odm/etc/boe1024_rm692e5_eyeprotect_data.xml
+odm/etc/boe1024_rm692e5_srgb_eyeprotect_data.xml
+vendor/etc/display/qdcm_calib_data_boe_rm692e5_dsc_cmd_mode_panel.json
+vendor/etc/ltm_config_boe_rm692e5_dsc_cmd_mode_panel.xml
+
 # Fingerprint
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
