@@ -10,7 +10,7 @@ include device/oneplus/sm8450-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oneplus/ovaltine
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 480
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
