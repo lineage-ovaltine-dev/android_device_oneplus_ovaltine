@@ -1,1 +1,1 @@
-require board=taro|OnePlus10T|CPH2417
+require board=taro|OP5551L1|OP5552L1
