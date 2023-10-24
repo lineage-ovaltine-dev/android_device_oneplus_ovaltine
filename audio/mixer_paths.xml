@@ -287,7 +287,7 @@
     <ctl name="VA_DEC3 MODE" value="ADC_DEFAULT" />
 
     <!-- OPLUS_FEATURE_RINGTONE_HAPTIC Add for set haptics vmax value -->
-    <ctl name="Haptics Amplitude Step" value="171" />
+    <ctl name="Haptics Amplitude Step" value="174" />
 
     <!-- defaults for mmap record -->
 
@@ -3814,7 +3814,7 @@
         <ctl name="AMIC5_MIXER Switch" value="1" />
 
         <ctl name="ADC4 Volume" value="6" />
-        <ctl name="TX_DEC2 Volume" value="68" />
+        <ctl name="TX_DEC1 Volume" value="84" />
     </path>
 
     <path name="anc-mic-loopback">
