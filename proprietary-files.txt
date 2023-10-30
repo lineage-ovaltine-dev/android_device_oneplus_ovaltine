@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 10T (CPH2417_13.1.0.584(EX01)).
+## are from OnePlus 10T (CPH2415_13.1.0.587(EX01)).
 
 # ACDB
 odm/etc/acdbdata/FTM/acdb_cal.acdb
