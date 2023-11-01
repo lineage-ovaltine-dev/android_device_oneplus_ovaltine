@@ -1452,6 +1452,12 @@ odm/etc/sensor/config/waipio_qrd_sx933x_0.json
 odm/etc/sensor/config/waipio_qrd_sx933x_down_0.json
 odm/etc/sensor/sensor_config.json
 
+# Touchscreen firmware
+odm/firmware/tp/21841/FW_S3910_BOE.img
+odm/firmware/tp/21841/FW_S3910_BOE_FAE.img
+odm/firmware/tp/21841/LIMIT_S3910_BOE.img
+odm/firmware/tp/21841/LIMIT_S3910_BOE_AGING.img
+
 # VPU firmware
 vendor/firmware/vpu20_1v.mbn
 vendor/firmware/vpu20_1v_unsigned.mbn
