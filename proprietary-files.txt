@@ -1483,3 +1483,8 @@ odm/etc/wifi/bdwlang.b0e
 odm/etc/wifi/bdwlang.elf
 odm/etc/wifi/regdb.bin
 odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
+
+# Camera (Oplus) - kang - from CPH2449_11.A.23_0230_202306140953
+odm/lib64/libAlgoProcess.so|86eaf1908184fd6073f0cadab1bbbf703dff4638
+odm/lib64/libui.so|88b8584db2fa78d0ec06d89f623f8321721051e1
+vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk.so|95d4c0bf06388dae183c1d9b1ef38453b87a4202
