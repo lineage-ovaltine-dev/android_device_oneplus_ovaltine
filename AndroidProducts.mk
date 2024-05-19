@@ -6,8 +6,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_ovaltine.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_ovaltine-user \
-    lineage_ovaltine-userdebug \
-    lineage_ovaltine-eng
