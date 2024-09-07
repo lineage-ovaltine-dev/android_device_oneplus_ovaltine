@@ -12,8 +12,7 @@ odm/etc/acdbdata/acdb_cal.acdb
 
 # ADSP modules
 odm/lib/rfsa/adsp/QNN_lib/libQnnHtpV69Skel.so
-odm/lib/rfsa/adsp/aiboost/libQnnHtpV69Skel.so
-odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so
+odm/lib/rfsa/adsp/aiboost/libQnnHtpV69Skel.so;MODULE_SUFFIX=.aiboost
 odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so
 odm/lib/rfsa/adsp/capi_v3_oprec.so
 odm/lib/rfsa/adsp/libSnpeHtpV68Skel.so
@@ -743,8 +742,8 @@ odm/etc/camera/pf/PerfectColorSet/portrait/photoSet.ini
 odm/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini
 odm/etc/camera/pf/PerfectColorSet/portrait/sceneList.txt
 odm/etc/camera/pfb_bin/BeardSharp.bin
-odm/etc/camera/pfb_bin/BeardSharp.frag
-odm/etc/camera/pfb_bin/BeardSharp.vert
+odm/etc/camera/pfb_bin/BeardSharp.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/BeardSharp.vert;MODULE_SUFFIX=.vert
 odm/etc/camera/pfb_bin/PreAddSRBinary.bin
 odm/etc/camera/pfb_bin/PreCalVarBinary.bin
 odm/etc/camera/pfb_bin/PreCalcSRBinary.bin
@@ -765,19 +764,19 @@ odm/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin
 odm/etc/camera/pfb_bin/PreVertFilterBinary.bin
 odm/etc/camera/pfb_bin/PreVertSurBinary.bin
 odm/etc/camera/pfb_bin/SkinCalcHue.bin
-odm/etc/camera/pfb_bin/SkinCalcHue.frag
-odm/etc/camera/pfb_bin/SkinCalcHue.vert
+odm/etc/camera/pfb_bin/SkinCalcHue.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/SkinCalcHue.vert;MODULE_SUFFIX=.vert
 odm/etc/camera/pfb_bin/SkinColorBlur.bin
-odm/etc/camera/pfb_bin/SkinColorBlur.frag
-odm/etc/camera/pfb_bin/SkinColorBlur.vert
+odm/etc/camera/pfb_bin/SkinColorBlur.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/SkinColorBlur.vert;MODULE_SUFFIX=.vert
 odm/etc/camera/pfb_bin/SkinColorUnify.bin
-odm/etc/camera/pfb_bin/SkinColorUnify.frag
-odm/etc/camera/pfb_bin/SkinColorUnify.vert
+odm/etc/camera/pfb_bin/SkinColorUnify.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/SkinColorUnify.vert;MODULE_SUFFIX=.vert
 odm/etc/camera/pfb_bin/SkinHueUnify.bin
-odm/etc/camera/pfb_bin/SkinHueUnify.frag
-odm/etc/camera/pfb_bin/SkinHueUnify.vert
+odm/etc/camera/pfb_bin/SkinHueUnify.frag;MODULE_SUFFIX=.frag
+odm/etc/camera/pfb_bin/SkinHueUnify.vert;MODULE_SUFFIX=.vert
 odm/etc/camera/pfb_bin/SkinToneAdjust.frag
-odm/etc/camera/pfb_bin/SkinToneAdjust.vert
+odm/etc/camera/pfb_bin/SkinToneAdjust.vert;MODULE_SUFFIX=.vert
 odm/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin
 odm/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin
@@ -926,7 +925,7 @@ odm/lib64/libFaceBeautyPre.so
 odm/lib64/libFaceDistortionCorrection.so
 odm/lib64/libFilterWrapper.so
 odm/lib64/libImageWarpMask.so
-odm/lib64/libOGLManager.so
+odm/lib64/libOGLManager.so;DISABLE_CHECKELF
 odm/lib64/libOPLUS_SCPortrait.so
 odm/lib64/libPerfectColor.so
 odm/lib64/libPerfectlyClearCrux.so
@@ -1265,7 +1264,6 @@ vendor/lib64/libcv_common.so
 vendor/lib64/libeva.so
 vendor/lib64/libhdr10plus.so
 vendor/lib64/libhdr_stub.so
-vendor/lib64/libhwconfigurationutil.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libipebpsstriping170.so
 vendor/lib64/libipebpsstriping480.so
@@ -1297,7 +1295,6 @@ vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/libubifocus.so
 vendor/lib64/vendor.oplus.hardware.cameraextension-V1-ndk_platform.so
-vendor/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk_platform.so
 vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so
