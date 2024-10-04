@@ -45,11 +45,16 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('vendor.oplus.hardware.osense.client-V1-ndk_platform.so', 'vendor.oplus.hardware.osense.client-V1-ndk.so'),
     ('odm/lib64/libaps_frame_registration.so', 'odm/lib64/libCOppLceTonemapAPI.so', 'odm/lib64/libCS.so', 'odm/lib64/libSuperRaw.so', 'odm/lib64/libYTCommon.so', 'odm/lib64/libyuv2.so'): blob_fixup()
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
-    ('odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff'): blob_fixup()
-        .replace_needed('android.hardware.biometrics.fingerprint-V1-ndk_platform.so', 'android.hardware.biometrics.fingerprint-V1-ndk.so')
-        .replace_needed('android.hardware.biometrics.common-V1-ndk_platform.so', 'android.hardware.biometrics.common-V1-ndk.so')
+    'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff': blob_fixup()
+        .replace_needed('android.hardware.biometrics.fingerprint-V1-ndk_platform.so', 'android.hardware.biometrics.fingerprint-V2-ndk.so')
+        .replace_needed('android.hardware.biometrics.common-V1-ndk_platform.so', 'android.hardware.biometrics.common-V2-ndk.so')
+        .replace_needed('vendor.oplus.hardware.commondcs-V1-ndk_platform.so', 'vendor.oplus.hardware.commondcs-V1-ndk.so')
         .replace_needed('vendor.oplus.hardware.touch-V1-ndk_platform.so', 'vendor.oplus.hardware.touch-V1-ndk.so')
-        .replace_needed('vendor.oplus.hardware.osense.client-V1-ndk_platform.so', 'vendor.oplus.hardware.osense.client-V1-ndk.so'),
+        .replace_needed('vendor.oplus.hardware.osense.client-V1-ndk_platform.so', 'vendor.oplus.hardware.osense.client-V1-ndk.so')
+        .add_needed('libshims_aidl_fingerprint_v2.oplus.so'),
+    'odm/lib64/libolc_vnd.so': blob_fixup()
+        .replace_needed('vendor.oplus.hardware.touch-V1-ndk_platform.so', 'vendor.oplus.hardware.touch-V1-ndk.so')
+        .replace_needed('vendor.oplus.hardware.olc2-V1-ndk_platform.so', 'vendor.oplus.hardware.olc2-V2-ndk.so'),
     ('odm/lib64/camera/com.qti.sensor.ovaltine_imx766.so',
             'odm/lib64/camera/com.qti.sensor.ovaltine_ov02b.so',
             'odm/lib64/camera/com.qti.sensor.ovaltine_ov08d.so',
@@ -115,6 +120,7 @@ blob_fixups: blob_fixups_user_type = {
             'vendor/lib64/libcamerapostproc.so',
             'vendor/lib64/vendor.qti.hardware.camera.aon@1.0-service-impl.so',
             'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so'): blob_fixup()
+        .replace_needed('vendor.oplus.hardware.commondcs-V1-ndk_platform.so', 'vendor.oplus.hardware.commondcs-V1-ndk.so')
         .replace_needed('vendor.oplus.hardware.osense.client-V1-ndk_platform.so', 'vendor.oplus.hardware.osense.client-V1-ndk.so'),
     'odm/etc/camera/CameraHWConfiguration.config': blob_fixup()
         .regex_replace('SystemCamera = 0;  0;  0;  1;  0;  1;', 'SystemCamera = 0;  0;  0;  0;  0;  0;'),
@@ -130,8 +136,9 @@ blob_fixups: blob_fixups_user_type = {
     'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
         .regex_replace('/my_product', '/product'),
     'vendor/lib64/libcamximageformatutils.so': blob_fixup()
-        .replace_needed('vendor.qti.hardware.display.config-V2-ndk_platform.so', 'vendor.qti.hardware.display.config-V2-ndk.so')
-        .replace_needed('vendor.oplus.hardware.osense.client-V1-ndk_platform.so', 'vendor.oplus.hardware.osense.client-V1-ndk.so'),
+        .replace_needed('vendor.oplus.hardware.commondcs-V1-ndk_platform.so', 'vendor.oplus.hardware.commondcs-V1-ndk.so')
+        .replace_needed('vendor.oplus.hardware.osense.client-V1-ndk_platform.so', 'vendor.oplus.hardware.osense.client-V1-ndk.so')
+        .replace_needed('vendor.qti.hardware.display.config-V2-ndk_platform.so', 'vendor.qti.hardware.display.config-V2-ndk.so'),
     ('odm/lib64/libOGLManager.so'): blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_describe')
