@@ -907,9 +907,6 @@ odm/lib64/libAncFilter.so
 odm/lib64/libAncHumBokeh.so
 odm/lib64/libAncHumBokehPost.so
 odm/lib64/libAncHumVideoBase.so
-odm/lib64/libAncHumanDoubleExposure.so
-odm/lib64/libAncHumanRetain.so
-odm/lib64/libAncHumanSegFigureFusion.so
 odm/lib64/libAncSegBaseSdk.so
 odm/lib64/libAncSegmentSdk.so
 odm/lib64/libBokehPre.so
@@ -955,7 +952,7 @@ odm/lib64/libXDocProcessSDK.so
 odm/lib64/libYTCommon.so
 odm/lib64/lib_rectify.so
 odm/lib64/libaiboost.so
-odm/lib64/libaiboost_hexagon.so
+odm/lib64/libaiboost_hexagon.so;DISABLE_CHECKELF
 odm/lib64/libaiboost_qnn_sr.so
 odm/lib64/libaiboost_sr.so
 odm/lib64/libaiboost_ubwc.so
@@ -989,7 +986,7 @@ odm/lib64/libarcsoft_hdrplus_hvx_stub.so
 odm/lib64/libarcsoft_high_dynamic_range.so
 odm/lib64/libarcsoft_high_dynamic_range_couple.so
 odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so
-odm/lib64/libarcsoft_high_dynamic_range_v4.so
+odm/lib64/libarcsoft_high_dynamic_range_v4.so;DISABLE_CHECKELF
 odm/lib64/libarcsoft_lensstaindetection.so
 odm/lib64/libarcsoft_long_exposure_capture.so;FIX_SONAME
 odm/lib64/libarcsoft_long_exposure_preview.so;FIX_SONAME
@@ -1005,14 +1002,13 @@ odm/lib64/libarcsoft_scbokeh_video.so
 odm/lib64/libarcsoft_smart_denoise.so
 odm/lib64/libarcsoft_smart_denoise_v4.so
 odm/lib64/libarcsoft_super_night_raw.so
-odm/lib64/libarcsoft_triple_sat.so
-odm/lib64/libarcsoft_triple_zoomtranslator.so
+odm/lib64/libarcsoft_triple_sat.so;DISABLE_CHECKELF
+odm/lib64/libarcsoft_triple_zoomtranslator.so;DISABLE_CHECKELF
 odm/lib64/libarcsoft_turbo_fusion_raw_grf.so;FIX_SONAME
 odm/lib64/libarcsoft_turbo_fusion_raw_portrait_super_night.so
 odm/lib64/libarcsoft_turbo_fusion_raw_super_night.so
 odm/lib64/libarcsoft_ultra_high_dynamic_range.so
 odm/lib64/libarcsoft_videoautozoom.so;FIX_SONAME
-odm/lib64/libc++_shared.so
 odm/lib64/libcalculator.so
 odm/lib64/libcalculator_htp.so
 odm/lib64/libcdm_metrics_protos.so
@@ -1042,7 +1038,6 @@ odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libpngwrapper.so
 odm/lib64/libportrait_repair_ocl.so
 odm/lib64/libremosaic_wrapper.so
-odm/lib64/libremosaiclib_s5k3p9.so
 odm/lib64/librfapis.so
 odm/lib64/librmsclib1.so
 odm/lib64/librpmbengclient.so
@@ -1052,8 +1047,6 @@ odm/lib64/libsharebuffer_impl.so
 odm/lib64/libsnpe_dsp_domains_v2.so
 odm/lib64/libsnpe_dsp_domains_v3.so
 odm/lib64/libsnpe_loader.so
-odm/lib64/libstblur_api.so
-odm/lib64/libstblur_capture_api.so
 odm/lib64/libstface_fd_api.so
 odm/lib64/libstfd_mobile_api.so
 odm/lib64/libthirdcapability.so
@@ -1260,10 +1253,7 @@ vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 vendor/lib64/libchilog.so
 vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libcv_common.so
-vendor/lib64/libeva.so
 vendor/lib64/libhdr10plus.so
-vendor/lib64/libhdr_stub.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libipebpsstriping170.so
 vendor/lib64/libipebpsstriping480.so
@@ -1278,8 +1268,6 @@ vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
 vendor/lib64/libmmcamera_pdpc.so
-vendor/lib64/libnanopb.so
-vendor/lib64/libolc_vnd.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopencv3a.so
 vendor/lib64/libopestriping.so
@@ -1397,8 +1385,6 @@ odm/lib64/android.hardware.biometrics.common-V1-ndk_platform.so|ee5ca8984d099bd4
 odm/lib64/libolc_vnd.so|8707082e74f020a5351c8f413116f223795efd2f
 odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so|720d84b2112849af89bd0495767bb03c79a39557
 odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so|185778822f29a84e8a6e84e29ff5fd47170a83c3
-odm/lib64/vendor.oplus.hardware.touch-V1-ndk_platform.so|3e1659574ed75be91dc8e3802a5a7583d7b2572b
-vendor/lib64/android.hardware.biometrics.common-V1-ndk_platform.so|ee5ca8984d099bd44c482b0dbaf647a943cbe120
 vendor/lib64/android.hardware.biometrics.fingerprint-V1-ndk_platform.so|781bf0111980ec1a981b8c400bee162f12432788
 
 # Fingerprint firmware
