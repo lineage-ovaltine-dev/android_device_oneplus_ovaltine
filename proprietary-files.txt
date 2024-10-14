@@ -1,6 +1,9 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are from OnePlus 10T (CPH2415_11.F.66).
 
+# Current blobs with ELF checks disabled:
+# audio.primary.taro depends on vendor.qti.hardware.pal@1.0-impl, which is a gnu makefile target
+
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/FTM/acdb_cal.acdb
@@ -47,7 +50,7 @@ odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
 # Audio
 odm/lib64/lib_lvacfs.so
 odm/lib64/liblvacfs_wrapper.so
-vendor/lib64/hw/audio.primary.taro.so
+vendor/lib64/hw/audio.primary.taro.so:odm/lib64/hw/audio.primary.taro.so;DISABLE_CHECKELF;MODULE_SUFFIX=_odm
 
 # Audio firmware
 odm/firmware/tfa98xx.cnt
