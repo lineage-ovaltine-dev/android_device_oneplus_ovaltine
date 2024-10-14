@@ -1385,7 +1385,6 @@ odm/lib64/android.hardware.biometrics.common-V1-ndk_platform.so|ee5ca8984d099bd4
 odm/lib64/libolc_vnd.so|8707082e74f020a5351c8f413116f223795efd2f
 odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so|720d84b2112849af89bd0495767bb03c79a39557
 odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so|185778822f29a84e8a6e84e29ff5fd47170a83c3
-vendor/lib64/android.hardware.biometrics.fingerprint-V1-ndk_platform.so|781bf0111980ec1a981b8c400bee162f12432788
 
 # Fingerprint firmware
 odm/vendor/firmware/uff_jv.b00
