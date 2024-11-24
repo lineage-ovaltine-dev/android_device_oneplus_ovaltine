@@ -15,6 +15,9 @@ TARGET_KERNEL_CONFIG += vendor/oplus/ovaltine.config
 # Display
 TARGET_SCREEN_DENSITY := 480
 
+# Partitions
+BOARD_SUPER_PARTITION_SIZE := 11274289152
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
