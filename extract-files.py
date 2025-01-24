@@ -21,7 +21,6 @@ from extract_utils.main import (
 namespace_imports = [
     'hardware/oplus',
     'hardware/qcom-caf/sm8450',
-    'hardware/qcom-caf/sm8450/audio/agm/ipc/HwBinders/legacy',
     'vendor/oneplus/sm8450-common',
     'vendor/qcom/opensource/commonsys-intf/display',
 ]
@@ -35,7 +34,6 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.hardware.pal@1.0-impl',
     ): lib_fixup_odm_suffix,
     (
-        'libagmclient',
     ): lib_fixup_remove,
 }
 
