@@ -45,6 +45,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Power
+$(call soong_config_set,qtipower,mode_ext_lib,power-ext-oplus)
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
