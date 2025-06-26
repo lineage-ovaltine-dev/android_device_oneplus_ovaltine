@@ -1424,6 +1424,7 @@ odm/etc/sensor/config/waipio_qrd_icm4x6xx.json
 odm/etc/sensor/config/waipio_qrd_mmc56x3x.json
 odm/etc/sensor/config/waipio_qrd_ois_system.json
 odm/etc/sensor/sensor_config.json
+vendor/lib64/sensors.ssc.so|3248369f118d822694cfd30f4e7fc16433f6c1f1|cb490142e4e8a89f33b5790f9a572a8157c54a7f
 
 # Touchscreen firmware
 odm/firmware/tp/21841/FW_S3910_BOE.img
