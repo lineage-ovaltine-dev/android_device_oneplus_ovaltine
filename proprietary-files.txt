@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 10T (CPH2415_11.F.66).
+## are from OnePlus 10T (CPH2417_11_H.78).
 
 # Current blobs with ELF checks disabled:
 
