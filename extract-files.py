@@ -25,16 +25,15 @@ namespace_imports = [
     'vendor/qcom/opensource/commonsys-intf/display',
 ]
 
+
 def lib_fixup_odm_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}'
 
+
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
-    (
-        'vendor.qti.hardware.pal@1.0-impl',
-    ): lib_fixup_odm_suffix,
-    (
-    ): lib_fixup_remove,
+    ('vendor.qti.hardware.pal@1.0-impl',): lib_fixup_odm_suffix,
+    (): lib_fixup_remove,
 }
 
 blob_fixups: blob_fixups_user_type = {
