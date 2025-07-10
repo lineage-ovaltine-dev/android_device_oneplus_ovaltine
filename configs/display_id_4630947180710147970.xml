@@ -4,12 +4,7 @@
         <density>
             <height>1080</height>
             <width>2412</width>
-            <density>450</density>
-        </density>
-        <density>
-            <height>1440</height>
-            <width>3216</width>
-            <density>560</density>
+            <density>480</density>
         </density>
     </densityMapping>
     <screenBrightnessMap interpolation="linear">

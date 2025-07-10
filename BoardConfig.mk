@@ -12,9 +12,6 @@ DEVICE_PATH := device/oneplus/ovaltine
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/oplus/ovaltine.config
 
-# Display
-TARGET_SCREEN_DENSITY := 480
-
 # Partitions
 BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 5637144572
 BOARD_SUPER_PARTITION_SIZE := 11274289152
