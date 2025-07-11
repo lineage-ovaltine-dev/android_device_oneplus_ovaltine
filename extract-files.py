@@ -146,7 +146,7 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_unlock'),
     'vendor/lib64/sensors.ssc.so': blob_fixup()
         .binary_regex_replace(b'qti.sensor.wise_light', b'android.sensor.light\x00')
-        .sig_replace('F1 E9 D3 84 52 49 3F A0 72', 'F1 A9 00 80 52 09 00 A0 72'),
+        .sig_replace('EA D3 84 52 01 41 00 91 29 00 17 CB 29 41 00 D1 29 15 C9 93 4A 3F A0 72', 'AA 00 80 52 01 41 00 91 29 00 17 CB 29 41 00 D1 29 15 C9 93 0A 00 A0 72'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
