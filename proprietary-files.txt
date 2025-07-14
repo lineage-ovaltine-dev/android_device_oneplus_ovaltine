@@ -1380,7 +1380,6 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff|0ded3621
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc|c9f6b44fe71d532f87475d3c6a601bd2b14fb2f8
 odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl_v2.xml|9dd836cdef719daf48d5bce7ff1fa5cfeeba78f2
 odm/lib64/vendor.oplus.hardware.olc2-V2-ndk.so|4a583790f5f7ae3ea00122dad45620a704606035
-vendor/lib64/vendor.oplus.hardware.performance-V1-ndk.so|ac54ffc4d69d713aa2ac443caf473197705e50d8
 
 # Fingerprint firmware
 odm/vendor/firmware/uff_jv.b00
