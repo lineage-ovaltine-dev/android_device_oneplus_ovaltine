@@ -1439,8 +1439,8 @@ vendor/firmware/vpu20_1v_unsigned.mbn
 vendor/firmware/vpu20_4v.mbn
 vendor/firmware/vpu20_4v_unsigned.mbn
 
-# WiFi config - from CPH2413_11.A.05
-odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini|e81ca7d4b28a80415ae5779712ad1a65ba99a0d5
+# WiFi config
+odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini
 
 # WiFi firmware
 odm/etc/wifi/bdwlan.b0a;SYMLINK=odm/etc/wifi/qca6490/bdwlan.b0a

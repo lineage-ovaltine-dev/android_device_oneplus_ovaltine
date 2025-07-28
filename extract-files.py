@@ -39,6 +39,8 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service': blob_fixup()
         .replace_needed('android.frameworks.stats-V1-ndk_platform.so', 'android.frameworks.stats-V1-ndk.so'),
+    'odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini': blob_fixup()
+        .regex_replace('BandCapability=3', ''),
     'odm/lib64/libAlgoProcess.so': blob_fixup()
         .replace_needed('android.hardware.graphics.common-V2-ndk_platform.so', 'android.hardware.graphics.common-V6-ndk.so')
         .replace_needed('vendor.oplus.hardware.osense.client-V1-ndk_platform.so', 'vendor.oplus.hardware.osense.client-V1-ndk.so'),
