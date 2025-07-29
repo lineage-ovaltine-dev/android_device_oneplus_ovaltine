@@ -7,10 +7,14 @@
             <density>480</density>
         </density>
     </densityMapping>
-    <screenBrightnessMap interpolation="linear">
+    <screenBrightnessMap>
         <point>
-            <value>0.00097680097</value>
+            <value>0</value>
             <nits>2.0</nits>
+        </point>
+        <point>
+            <value>0.62</value>
+            <nits>500.0</nits>
         </point>
         <point>
             <value>1.0</value>
@@ -18,7 +22,7 @@
         </point>
     </screenBrightnessMap>
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.50036665851</transitionPoint>
+        <transitionPoint>0.62</transitionPoint>
         <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
         <minimumLux>10100</minimumLux>
         <timing>
