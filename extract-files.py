@@ -37,7 +37,7 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-    'odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service': blob_fixup()
+    ('odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service', 'vendor/lib64/libmidasserviceintf_aidl.so'): blob_fixup()
         .replace_needed('android.frameworks.stats-V1-ndk_platform.so', 'android.frameworks.stats-V1-ndk.so'),
     'odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini': blob_fixup()
         .regex_replace('BandCapability=3', ''),
