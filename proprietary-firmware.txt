@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 10T (CPH2417_15.0.0.1301(EX01)).
+## are from OnePlus 10T (CPH2415_15.0.0.1601(EX01)).
 
 # Exceptions:
 # abl.img: from OnePlus 10T (CPH2417_13.1.0.583(EX01))

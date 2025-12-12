@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 10T (CPH2417_11_H.78).
+## are from OnePlus 10T (CPH2415_11_H.82).
 
 # Current blobs with ELF checks disabled:
 
@@ -1424,7 +1424,8 @@ odm/etc/sensor/config/waipio_qrd_icm4x6xx.json
 odm/etc/sensor/config/waipio_qrd_mmc56x3x.json
 odm/etc/sensor/config/waipio_qrd_ois_system.json
 odm/etc/sensor/sensor_config.json
-vendor/lib64/sensors.ssc.so|3248369f118d822694cfd30f4e7fc16433f6c1f1|9e947256233525c80f29c842f02a6da9667cf332
+vendor/lib64/sensors.ssc.so|c73f24f984df6d6a98ef3bcde9ce8a69402db998|9e947256233525c80f29c842f02a6da9667cf332
+
 
 # Touchscreen firmware
 odm/firmware/tp/21841/FW_S3910_BOE.img
