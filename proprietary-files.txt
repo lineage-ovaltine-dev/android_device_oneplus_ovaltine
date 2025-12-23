@@ -1029,7 +1029,6 @@ odm/lib64/liboplusblur_capture_api.so
 odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libormshalclient.so
-odm/lib64/libosenseaidlhalclient.so
 odm/lib64/libpngwrapper.so
 odm/lib64/libportrait_repair_ocl.so
 odm/lib64/libremosaic_wrapper.so

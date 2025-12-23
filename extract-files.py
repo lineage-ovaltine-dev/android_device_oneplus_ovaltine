@@ -51,7 +51,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.biometrics.common-V1-ndk_platform.so', 'android.hardware.biometrics.common-V2-ndk.so')
         .replace_needed('vendor.oplus.hardware.commondcs-V1-ndk_platform.so', 'vendor.oplus.hardware.commondcs-V1-ndk.so')
         .replace_needed('vendor.oplus.hardware.touch-V1-ndk_platform.so', 'vendor.oplus.hardware.touch-V1-ndk.so')
-        .replace_needed('vendor.oplus.hardware.osense.client-V1-ndk_platform.so', 'vendor.oplus.hardware.osense.client-V1-ndk.so')
         .add_needed('libshims_aidl_fingerprint_v2.oplus.so'),
     'odm/lib64/libolc_vnd.so': blob_fixup()
         .replace_needed('vendor.oplus.hardware.touch-V1-ndk_platform.so', 'vendor.oplus.hardware.touch-V1-ndk.so')
@@ -60,7 +59,6 @@ blob_fixups: blob_fixups_user_type = {
             'odm/lib64/camera/com.qti.sensor.ovaltine_ov02b.so',
             'odm/lib64/camera/com.qti.sensor.ovaltine_ov08d.so',
             'odm/lib64/camera/com.qti.sensor.ovaltine_s5k3p9.so',
-            'odm/lib64/libosenseaidlhalclient.so',
             'odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so',
             'odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so',
             'vendor/lib64/camera/components/com.arcsoft.node.eisv2.so',
