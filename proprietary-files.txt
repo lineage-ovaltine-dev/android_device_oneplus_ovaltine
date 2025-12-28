@@ -1371,9 +1371,6 @@ vendor/firmware/gmu_gen70000.bin
 vendor/etc/display/qdcm_calib_data_boe_rm692e5_dsc_cmd_mode_panel.json
 vendor/etc/ltm_config_boe_rm692e5_dsc_cmd_mode_panel.xml
 
-# Fingerprint
-odm/lib64/libolc_vnd.so
-
 # Fingerprint (service) - from salami 11.F.68
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff|0ded362198f669f38239f52c3bc526eaf55aca12|0ded362198f669f38239f52c3bc526eaf55aca12
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc|c9f6b44fe71d532f87475d3c6a601bd2b14fb2f8
